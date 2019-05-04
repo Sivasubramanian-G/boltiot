@@ -1,6 +1,6 @@
 from boltiot import Bolt
-api_key = "ebf89e2b-fbf8-473a-96c0-2eb3e835620f"
-device_id = "BOLT6094118"
+api_key = ""
+device_id = ""
 mybolt = Bolt( api_key , device_id )
 response = mybolt.isOnline()
 print (response)
