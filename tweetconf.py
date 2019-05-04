@@ -1,6 +1,0 @@
-consumer_key = "WtVM2Zar692OxaMtDessH4PNL"
-consumer_secret = "RYgHKtHFBIQpZqN3LcvCTyuBjNM7pXKd4mXiEuFoS8C6bEZaGg"
-access_token = "1103269930609205248-2VIAxUvmGAQ16vMnUWbrBaz3F6fFhX"
-access_token_secret = "jLIgYsxaAQ0qkWsrYOHb8VP9FQPSBo6fYXMTrXZG58hhy"
-bolt_cloud_api_key = "ebf89e2b-fbf8-473a-96c0-2eb3e835620f"
-device_id = "BOLT6094118"
