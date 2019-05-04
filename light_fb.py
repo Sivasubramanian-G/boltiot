@@ -2,7 +2,7 @@ from boltiot import Bolt
 import requests, json, time
 
 def trigger_integromat_webhook():
-    URL = "https://hook.integromat.com/967ld231k7crg8is4uu7u45royeps3m3"
+    URL = ""
     response = requests.request("GET", URL)
     print (response.text)
 
