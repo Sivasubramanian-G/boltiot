@@ -1,0 +1,19 @@
+from boltiot import Bolt
+
+def get_bitcoin_price():
+    URL = "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD,JPY,EUR"
+    response = requests.request("GET", URL)
+    response = json.loads(response.text)
+    current_price = response["USD"]
+
+api_key = "ebf89e2b-fbf8-473a-96c0-2eb3e835620f"
+device_id = "BOLT6094118"
+
+mybolt = Bolt( api_key , device_id )
+price = get_bitcoin_price()
+if price > 1550
+    buzzer = analogWrite('0','100')
+    print (buzzer)
+    time.sleep(3)
+    buzzer = analogWrite('0','0')
+    print (b
